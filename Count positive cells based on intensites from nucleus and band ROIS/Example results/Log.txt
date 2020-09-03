@@ -1,0 +1,17 @@
+Parameters used:
+thickness: 10
+area: 200
+NCC threshold: 40
+MR threshold: 90
+----
+Initialize started...
+Initialize done.
+Detecting nuclei with Stardist2D...
+Nuclei detected.
+Number of objects detected by Stardist: 948
+Number of cells: 835
+Number of MR+ cells: 34
+Number of MR- cells: 801
+Number of NCC+ cells: 156
+Number of NCC- cells: 679
+Number of MR+ AND NCC+ cells: 7
