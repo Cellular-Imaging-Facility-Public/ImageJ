@@ -7,7 +7,7 @@ To answer the question if our KO is present or not, we would like to quantify th
 
 ## Sample images
 
-![sample image #1 courtesy of Dr Na Li]()
+![sample image #1 courtesy of Dr Na Li](https://raw.githubusercontent.com/Cellular-Imaging-Facility-Public/ImageJ/Add-a-readme.md-to-new-project/Count%20positive%20cells%20based%20on%20intensites%20from%20nucleus%20and%20band%20ROIS/Test%20images/sample_image.png)
 
 # Script
 ## Author
@@ -16,4 +16,4 @@ To answer the question if our KO is present or not, we would like to quantify th
 
 ## Example results
 
-![screenshot of results]()
+![screenshot of results](https://raw.githubusercontent.com/Cellular-Imaging-Facility-Public/ImageJ/Add-a-readme.md-to-new-project/Count%20positive%20cells%20based%20on%20intensites%20from%20nucleus%20and%20band%20ROIS/Example%20results/sample_results.png)
