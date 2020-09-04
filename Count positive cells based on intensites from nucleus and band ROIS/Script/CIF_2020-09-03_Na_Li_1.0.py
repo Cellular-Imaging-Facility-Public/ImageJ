@@ -44,12 +44,16 @@ def initialize():
 	#Step1: Getting image information
 	ImageTitle = wm.getCurrentImage().getTitle()
 	IJ.run("Split Channels");
-	Channel_1 = ImageTitle+" (red)"
-	Channel_2 = ImageTitle+" (green)"
-	Channel_3 = ImageTitle+" (blue)"
-	wm.getImage(Channel_1).setTitle("MR")
+	#Channel_1 = ImageTitle+" (red)"
+	#Channel_2 = ImageTitle+" (green)"
+	#Channel_3 = ImageTitle+" (blue)"
+	Channel_1 = "C1-"+ImageTitle
+	Channel_2 = "C2-"+ImageTitle
+	Channel_3 = "C3-"+ImageTitle
+	
+	wm.getImage(Channel_3).setTitle("MR")
 	wm.getImage(Channel_2).setTitle("NCC")
-	wm.getImage(Channel_3).setTitle("Nuclei")
+	wm.getImage(Channel_1).setTitle("Nuclei")
 
 def detectNuclei(channel):
 	IJ.log("Detecting nuclei with Stardist2D...")
