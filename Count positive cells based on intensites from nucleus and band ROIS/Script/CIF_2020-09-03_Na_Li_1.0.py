@@ -2,8 +2,8 @@
 #@ String (visibility=MESSAGE, value="<html><i>Script written by Yannick Krempp, CIF, 2020</i></html>", required=false) msg0
 #@ String (visibility=MESSAGE, value="<html><br/><br/><p><b>Purpose of this script:</b></p><li>1) Identifies nuclei with Stardist2D</li><li>2) Identifies NCC-positive cells defined by <code>NCC_threshold</code></li><li>3) From NCC-positive cells, counts MR-positive cells defined by <code>MR_threshold</code></li></ul></html>", required=false) msg1
 #@ Integer (label="Band thickness", value=10, style="slider", min=0, max=15, stepSize=1, description="Thickness of the band around the nuclei in pixels") band_thickness
-#@ Integer (label="NCC threshold", value=80, description="Intensity threshold for NCC") ncc_threshold
-#@ Integer (label="MR threshold", value=80, description="Intensity threshold for MR") mr_threshold
+#@ Integer (label="NCC threshold", value=2000, description="Intensity threshold for NCC") ncc_threshold
+#@ Integer (label="MR threshold", value=1000, description="Intensity threshold for MR") mr_threshold
 #@ Integer (label="Nucleus area", value=200, description="<html>Minimum area for the nucleus in pixels<sup>2</sup></html>") min_nucleus_area
 
 
